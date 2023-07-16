@@ -1,0 +1,269 @@
+body{
+    overflow-x: hidden;
+}
+.main{
+    background-image: url(downl.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+    height:130vh;
+   
+    
+    
+}
+
+.card-body{
+    background: black;
+    
+    
+}
+
+a{
+    color: red;
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+    left: 4%;
+    color: rgba(255, 255, 255,1);
+     
+}
+img{
+    width: 175px;
+}
+
+.nail{
+    color: black;
+    position: relative;
+    top: 35px;
+    left:40px;
+    font-weight: bolder;
+}
+
+.bg-white{
+    position: relative;
+    height: 500px;
+    border-radius:  30px 30px 30px 30px;
+    width: 450px;
+}
+
+.lap{
+    position: relative;
+    top: 38px;
+
+}
+.form-control:hover{
+    border: 1px solid black;
+}
+
+.mb-4{
+    position: relative;
+    bottom: 20px;
+}
+
+
+.form-text{
+    font-size: 10px;
+    position: absolute;
+    top: 95%;
+}
+
+.bug{
+    background: pink;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    bottom:32%;
+    cursor: pointer;
+    border: 1px solid pink;
+}
+
+.aza{
+    position: absolute;
+    bottom: 110px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.sapa{
+    position:absolute;
+    font-weight: lighter;
+    font-size: 18px;
+    color: red;
+    bottom:110px;
+    left:190px
+}
+
+.sapa:hover{
+    border-bottom: 1.2px solid red;
+}
+
+.boo{
+    border-bottom: 1px solid rgb(237, 230, 230);
+    position: relative;
+    top:  155px;
+}
+
+.fowl{
+    font-weight: lighter;
+    position: absolute;
+    bottom: 25px;
+    font-size: 20px;
+}
+
+.g1{
+    background: conic-gradient(from -45deg, #ea4335 110deg,#4285fa 90deg 180deg,#34a853 180deg 270deg,#fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    padding: 7px;
+    font-size: 20px;
+}
+.g2{
+padding: 8px;
+font-size: 20px;
+color: green;
+background-color: transparent;
+}
+
+.sharinga{
+    border: 1px solid white;
+    border-radius:100px;
+    position: absolute;
+    bottom: 30px;
+    left: 330px;
+    
+}
+
+
+.satoru{
+        border: 1px solid rgb(198, 191, 191);
+        border-radius:100px;
+        position: absolute;
+        bottom:30px;
+        left: 280px;
+        background: white;
+}
+.grace{
+    font-size: 13px;
+    position: absolute;
+    left: 32%;
+    color: white;
+}
+
+
+@media (max-width:768px) {
+  
+    .main{
+        overflow-x: hidden;
+        width:100%;
+        background-image: url(downl.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+    height: 100vh;
+
+   }
+ 
+  .card-body{
+    background: black ;
+    width: 100%;
+  }
+
+.wee{
+   position: relative;
+   top: 100px;
+   
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+    left: 2%;
+    color: rgba(255, 255, 255,1);
+}
+
+  .bg-white{
+    position: relative;
+    height: 500px;
+    border-radius:  30px 30px 30px 30px;
+    width: 369px;
+    size: 50px;
+}
+
+.bug{
+    background: pink;
+    color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    bottom:32%;
+    cursor: pointer;
+    border: 1px solid pink;
+}
+
+.form-text{
+    font-size: 10px;
+    position: absolute;
+    top: 100%;
+}
+
+.g1{
+    background: conic-gradient(from -45deg, #ea4335 110deg,#4285fa 90deg 180deg,#34a853 180deg 270deg,#fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    padding: 7px;
+    font-size: 20px;
+}
+
+.g2{
+padding: 8px;
+font-size: 20px;
+color: green;
+background-color: transparent;
+}
+
+
+.sharinga{
+    border: 1px solid white;
+    border-radius:100px;
+    position: absolute;
+    bottom: 25px;
+    left: 300px;
+    
+}
+
+
+.satoru{
+    border: 1px solid rgb(198, 191, 191);
+    border-radius:100px;
+    position: absolute;
+    bottom: 25px;
+    left: 250px;
+    background: white;
+}
+
+
+.grace{
+    font-size: 15px;
+    position: absolute;
+    left:3%;
+    color: white;
+}
+
+.boo{
+    border-bottom: 1px solid rgb(237, 230, 230);
+    position: relative;
+    top:  155px;
+}
+
+}
+
+   
