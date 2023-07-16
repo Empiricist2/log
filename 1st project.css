@@ -246,7 +246,7 @@ background-color: transparent;
     border-radius:100px;
     position: absolute;
     bottom: 25px;
-    left: 250px;
+    left: 200px;
     background: white;
 }
 
@@ -262,6 +262,20 @@ background-color: transparent;
     border-bottom: 1px solid rgb(237, 230, 230);
     position: relative;
     top:  155px;
+}
+
+
+.sapa{
+    position:absolute;
+    font-weight: lighter;
+    font-size: 18px;
+    color: red;
+    bottom:110px;
+    left:200px
+}
+
+.sapa:hover{
+    border-bottom: 1.2px solid red;
 }
 
 }
