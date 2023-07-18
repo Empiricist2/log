@@ -7,6 +7,7 @@ body{
     background-size:cover;
     background-attachment: fixed; 
     height:130vh;
+ 
    
     
     
@@ -20,6 +21,11 @@ body{
 
 a{
     color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
 }
 
 .logo{
@@ -156,7 +162,7 @@ background-color: transparent;
 }
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
   
     .main{
         overflow-x: hidden;
