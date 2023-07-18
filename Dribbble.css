@@ -58,7 +58,7 @@ font-weight: bolder;
     left: 400px;
 }
 
-.bug{
+.bugg{
     background:  rgb(220, 73, 139);
     position: relative;
     top: 50px;
@@ -81,9 +81,9 @@ font-weight: bolder;
 
     }
 
-    .bug{
+    .bugg{
         background:  rgb(220, 73, 139);
-        position: relative;
+        position: relative  ;
         top: 50px;
         left: 400px;
         width: 50%;
@@ -105,4 +105,15 @@ font-weight: bolder;
         position: relative;
         top: 30px;
     }
+     .ego{
+        display: none;
+    }
+    .egoss{
+        display: none;
+    }
+    .ram{
+        position:relative;
+        top: 10px;
+    }
+    
 }
