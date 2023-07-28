@@ -319,4 +319,45 @@ a:hover{
     width: 250px;
 }
 
+
+.Let{
+    color: black;
+    font-family:none;
+    font-weight:bolder;
+    position: relative;
+    left: 14%;
+    top: 20px;
+    
+}
+.form-label{
+    font-weight: bolder;
+    font-family:none;
+}
+
+.ose{
+    font-weight: lighter;
+    position: relative;
+    left: 165px;
+    bottom: 18px;
+    color: blue;
+    text-decoration: underline;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.iphone{
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+    bottom: 27px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.che{
+    position:relative;
+    left: -30%;
+    top: 32%;
+}
+
 }
