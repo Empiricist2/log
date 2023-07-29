@@ -358,7 +358,20 @@ a:hover{
 .che{
     position:relative   ;
     left: -33%;
-    top: 20px;
+    top: 22px;
+}
+.error{
+    font-size: 5px;
+   position: fixed;
+   right: 80px;
+   bottom: -22px;
+
 }
 
+.errors{
+    font-size: 5px;
+    position: fixed;
+    right: 20%;
+    bottom:7%;
+}
 }
