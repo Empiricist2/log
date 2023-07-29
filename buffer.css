@@ -308,6 +308,7 @@ a:hover{
     transform: translate(-11%); 
     position: relative;
     bottom: 35px;
+    left: 20px;
 }
 .android{
     transform: translate(-9%); 
@@ -355,9 +356,9 @@ a:hover{
 }
 
 .che{
-    position:relative;
-    left: -30%;
-    top: 32%;
+    position:relative   ;
+    left: -33%;
+    top: 40%;
 }
 
 }
