@@ -1,15 +1,17 @@
 body{
     overflow-x: hidden;
-}
-.main{
     background-image: url(downl.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed; 
-    height:130vh;
- 
    
-    
+   
+}
+
+
+.wee{
+    position: relative;
+    top: 60px;
     
 }
 
@@ -31,7 +33,7 @@ a:hover{
 .logo{
     position: relative;
     top: 20px;
-    left: 4%;
+    left: 30%;
     color: rgba(255, 255, 255,1);
      
 }
@@ -52,6 +54,7 @@ img{
     height: 500px;
     border-radius:  30px 30px 30px 30px;
     width: 450px;
+    
 }
 
 .lap{
@@ -156,10 +159,34 @@ background-color: transparent;
 }
 .grace{
     font-size: 13px;
-    position: absolute;
-    left: 32%;
+    margin: 0% auto;
+    text-align: center;
     color: white;
+    
 }
+
+.calf{
+    color: red;
+}
+
+.main2{
+    margin-left: 50px;
+}
+
+
+    .error{
+        font-size: small;
+        display: flex;
+        position:fixed;
+    }
+
+    .errors{
+        font-size: small;
+        display: flex;
+        position: fixed;
+    }
+
+
 
 
 @media screen and (max-width:768px) {
@@ -183,6 +210,9 @@ background-color: transparent;
 .wee{
    position: relative;
    top: 100px;
+   right: 6%;
+  
+
    
 }
 
@@ -197,7 +227,7 @@ background-color: transparent;
     position: relative;
     height: 500px;
     border-radius:  30px 30px 30px 30px;
-    width: 369px;
+    width: 80vmin;
     size: 50px;
 }
 
@@ -205,12 +235,13 @@ background-color: transparent;
     background: pink;
     color: white;
     border-radius: 10px;
-    width: 320px;
+    width: 68vmin;
     height: 50px;
     position: absolute;
     bottom:32%;
     cursor: pointer;
     border: 1px solid pink;
+    
 }
 
 .form-text{
@@ -242,7 +273,7 @@ background-color: transparent;
     border-radius:100px;
     position: absolute;
     bottom: 25px;
-    left: 300px;
+    left:80%;
     
 }
 
@@ -252,7 +283,7 @@ background-color: transparent;
     border-radius:100px;
     position: absolute;
     bottom: 25px;
-    left: 200px;
+    left: 50%;
     background: white;
 }
 
@@ -276,14 +307,119 @@ background-color: transparent;
     font-weight: lighter;
     font-size: 18px;
     color: red;
-    bottom:110px;
-    left:200px
+    bottom:105px;
+    left:65%
 }
+
+
 
 .sapa:hover{
     border-bottom: 1.2px solid red;
 }
 
+.aza{
+    position: relative;
+    top: 125px;
+   
 }
 
-   
+.fowl{
+    position: relative;
+    top:175px;
+}
+
+}
+
+
+ @media screen and (min-width:1400px){
+    .wee{
+        position: relative;
+        top: 200px;
+    }
+    .logo{
+        top: 100px;
+        color: rgba(255, 255, 255,1);
+        
+    }
+.main2{
+    margin-left: 20%;
+}
+    .fowl{
+        margin-left:5%;
+        margin-bottom:-1px;
+    }
+
+    .boo{
+        margin-top:-2%;
+    }
+
+    img{
+        width: 30%;
+    }
+    .bg-white{
+        position: relative;
+        height: 70vh;
+        border-radius:  30px 30px 30px 30px;
+        width: 80vmin;
+        size: 100px;
+    }
+
+    .nail{
+        margin-left: 27%;
+        font-size:30px;
+    }
+    .lap{
+        text-align: center;
+        font-size:50px;
+    }
+    .form-text{
+        font-size: 20px;
+    }
+
+    .bug{
+        position: relative;
+        width: 100%;
+        top: 100px;
+    }
+
+    .sapa{
+        position: relative;
+        top: 200px;
+
+    }
+
+    .satoru{
+        margin-left: 35%;
+        margin-bottom: -20px;
+        
+    }
+
+    .sharinga{
+
+        margin-left: 40%;
+        margin-bottom:-20px;
+
+
+    }
+
+    .grace{
+        font-size: 25px;
+       
+    }
+
+    .error{
+        font-size: small;
+        display: flex;
+        position:fixed;
+    }
+
+    .errors{
+        font-size: small;
+        display: flex;
+        position: fixed;
+    }
+
+} 
+
+
+

@@ -81,17 +81,19 @@ a:hover{
 .blue{
     margin-left:65%;
     width: 40%;
-    height:700px;
-    position:relative;
-    bottom: 89px;
+    height:1290px;
+    margin-top: -40px;
+    
 }
-
+.but{
+    cursor: none;
+}
 .word{
-    position: fixed;
-    left:75%;
-    font-size:20px;
-    color: white;
-    bottom:350px;
+   position:fixed;
+   left:66%;
+    font-size:18px;
+    color: black;
+   top:10%;
 }
 
 .elon{
@@ -121,12 +123,14 @@ a:hover{
     
 }
 
+
+
 .form-label{
     font-weight: bolder;
     font-family: cursive;
 }
 .form-control{
-    width: 470px;
+    width: 60%;
     height: 50px;
     
 }
@@ -138,16 +142,15 @@ a:hover{
 }
 
 .char{
-    position: relative;
-    bottom: 35px;
-    right: 80px;
+   margin-top: 1%;
+   margin-right: 17%;
 }
 
 .recap{
-    width: 50px;
+    width: 35px;
     position:relative;
     left: 32%;
-    bottom: 48px
+    bottom: 39px
     
 
 }
@@ -156,34 +159,32 @@ a:hover{
    
     border: 1px solid rgba(115, 111, 111, 0.5);
     height: 70px;
-    width: 300px;
-    position: relative;
-    left: 180px;
-    bottom: -30px;
+    width: 50%;
+    margin-left: 25%;
 }
 .che{
-    position:relative;
-    left: -30%;
-    bottom: -35%;
+   margin-right: 60%;
+   margin-top: 10%;
 }
+
+
 
 
 
 .robot{
     font-weight: lighter;
-    position:relative;
-    left:-4%;
-    bottom:5%;
+  
+   margin-top: -9%;
 }
 
 .btn-primaryn{
     background: rgb(209, 193, 193);
     color: white;
-    position: relative;
-    width: 450px;
+    
+    width: 45%;
     height: 50px;
-    top: 10px;
-    left: 100px;
+    margin-left: 20%;
+    margin-top: 10px;
 }
 .btn-primaryn:hover{
     color: red;
@@ -211,7 +212,7 @@ a:hover{
 .key{
     position:fixed;
     top: 1px;
-    overflow-x:hidden;
+    
     left: 190px;
     font-size: larger;
     min-width: 100vmin;
@@ -252,6 +253,13 @@ a:hover{
     margin-left: 350px;
 }
 
+.ego{
+    margin: 0% auto;
+    
+}
+
+
+
 @media screen and (max-width:768px) {
 
     .fourth{
@@ -260,7 +268,6 @@ a:hover{
     
  .key{
     width: 100%;
-    position: fixed;
     left: 30px;
     
  }
@@ -374,4 +381,64 @@ a:hover{
     right: 20%;
     bottom:7%;
 }
+.word{
+    position:fixed;
+}
+
+}
+
+
+@media screen and (min-device-width:820px) and (max-device-width:1180px) and (orientation: portrait) {
+
+    .key{
+        margin-left: -15%;
+        margin-top: 10%;
+    }
+
+    .form-control{
+        width: 45%;
+    }
+
+    .lap{
+        margin-left:1%;
+    }
+
+    .tra{
+        margin-left: 25%;
+       
+    }
+
+    .btn-primaryn{
+        width: 40%;
+    }
+
+    .error{
+        position:fixed;
+        margin-left: 20%;
+    }
+
+    .errors{
+        position:fixed;
+        margin-left: 20%;
+        font-size:large;
+    }
+
+    .word{
+        position: relative;
+        top: -400px;
+        left: -30px;
+        font-size: 23px;
+    }
+
+    .elon{
+        position: relative;
+        top: -370px;
+        margin-left: -50px;
+    }
+
+    .musk{
+        position: relative;
+        top: -350px;
+        margin-left: -50px;
+    }
 }

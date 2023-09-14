@@ -40,7 +40,7 @@ a:hover{
 }
 
 .form-control{
-    width: 400px;
+    width:40%;
     background-color:rgb(232, 228, 228);
 }
 
@@ -51,11 +51,19 @@ font-size: large;
 font-weight: bolder;
 }
 
+.calf{
+    font-size: 20px;
+    color: red;
+    margin-left: 20%;
+    margin-top:5%;
+    
+}
 
 .g5{
     position: relative;
     top: 50px;
     left: 400px;
+    
 }
 
 .bugg{
@@ -69,6 +77,11 @@ font-weight: bolder;
     cursor: pointer;
     border-radius: 10px;
     color: white;
+}
+
+.error{
+    position: fixed;
+    margin-left:25% ;
 }
 
 @media screen and (max-width:768px){
@@ -97,7 +110,7 @@ font-weight: bolder;
 
 
     .form-control{
-        width: 350px;
+        width: 80%;
         background-color:rgb(232, 228, 228);
     }
 
@@ -119,4 +132,20 @@ font-weight: bolder;
         position: relative;
     }
    
+    .pee{
+position: relative;
+    }
+
+    .calf{
+        white-space: nowrap;
+        font-size: small;
+        color: red;
+        margin-left: 84%;
+        margin-top: 20%;
+    }
+
+    .error{
+        position: fixed;
+        margin-left: 55%;
+    }
 }
